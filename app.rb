@@ -19,7 +19,7 @@ end
 # Quick test
 get '/' do
   "Congratulations!
-   AP is running a Sinatra application on Heroku!"
+   Aaron is running a Sinatra application on Heroku!"
 end
 
 # Test at <appname>.heroku.com
