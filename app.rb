@@ -20,7 +20,7 @@ end
 get '/' do
   "<h1>Congratulations!</h1>
    Aaron is running a Sinatra application on Heroku!
-  <img src='images/prekclass.jpg'>"
+  <img src='/images/prekclass.jpg' />"
 end
 
 # Test at <appname>.heroku.com
