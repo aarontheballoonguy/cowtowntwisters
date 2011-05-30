@@ -1,6 +1,6 @@
 require 'app'
 
-## There is no need to set directories here anymore;
-## Just run the application
+use Rack::ShowExceptions
 
-run Sinatra::Application
+run App.new
+
