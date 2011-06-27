@@ -14,7 +14,7 @@ class App < Sinatra::Base
   set :public, 'public'
 
   get '/' do
-    @title = "Call Cowtowntwisters Today!!!"
+    @title = "Cowtown Twisters"
     mustache :index
   end
 

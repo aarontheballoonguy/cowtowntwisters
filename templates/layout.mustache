@@ -4,14 +4,19 @@
     <title>
       {{title}}
     </title>
-    <style>
-      body { background: #eee; }
-      li { list-style: none !important; }
-    </style>
+    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/javascripts/app.js" type="text/javascript"></script>
   </head>
-  <body>
-    <div id="main">
+  <body> 
+    <div class="container"> 
+      <h1>{{title}}<small>by Aaron Phelps</small></h1> 
+    </div> 
+    <div id="main" class="container"> 
       {{{yield}}}
+    </div>
+    <div class="container"> 
+      <p style="color: #fff; font-size: 1.2em; padding: 10px 0; float: right;">Tutorial by <a href="http://www.SohTanaka.com" target="_blank" style="color: #fff;">Soh Tanaka</a> - <a href="http://www.SohTanaka.com" target="_blank" style="color: #fff;">www.SohTanaka.com</a></p> 
     </div>
   </body>
 </html>

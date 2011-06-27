@@ -1,7 +1,7 @@
 class App
   module Views
     class Index < Layout
-      def content
+      def prekclass
         "Yo Dawg!"
       end
     end
