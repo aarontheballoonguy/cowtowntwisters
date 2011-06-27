@@ -9,7 +9,7 @@ h1 {
   font: 3em normal Georgia, "Times New Roman", Times, serif;
   color: #fff;
   text-align: center;
-  background: url(h1_bg.gif) no-repeat;
+  background: url(/images/h1_bg.gif) no-repeat;
   text-indent: -99999px;
   margin: 100px 0 10px;
 }
@@ -46,7 +46,7 @@ a {color: #fff;}
 }
 .block small { 
   padding: 0 0 0 20px; 
-  background: url(icon_calendar.gif) no-repeat 0 center; 
+  background: url(/images/icon_calendar.gif) no-repeat 0 center; 
   font-size: 1em; 
 }
 .main_image .block small {margin-left: 10px;}
@@ -62,7 +62,7 @@ a {color: #fff;}
   border-top: 1px solid #000;
 }
 .main_image a.collapse {
-  background: url(btn_collapse.gif) no-repeat left top;
+  background: url(/images/btn_collapse.gif) no-repeat left top;
   height: 27px; width: 93px;
   text-indent: -99999px;
   position: absolute; 
